@@ -1,0 +1,202 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mental Behavior</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <h2><a href="index.html" class="nav__logo">Mental Behavior Analysis</a></h2>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#demographic" class="nav__link">Demographic</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>BE</span><br>KIND</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== Demographic ====-->
+        <section class="demographic section">
+            <h2 class="section-title">Demographic Details</h2>
+            <form id="demographicForm" class="form">
+                <div class="form-group">
+                    <label for="age">Age Group:</label>
+                    <select name="age" id="age" class="form-control">
+                        <option value="" disabled selected>Choose One</option>
+                        <option value="0-18">0-18</option>
+                        <option value="19-30">19-30</option>
+                        <option value="31-45">31-45</option>
+                        <option value="46-60">46-60</option>
+                        <option value="61+">61+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender" class="form-control">
+                        <option value="" disabled selected>Choose One</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="countryside">Countryside:</label>
+                    <select name="countryside" id="countryside" class="form-control">
+                        <option value="" disabled selected>Choose One</option>
+                        <option value="rural">Rural</option>
+                        <option value="urban">Urban</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="marital_status">Marital Status:</label>
+                    <select name="marital_status" id="marital_status" class="form-control">
+                        <option value="" disabled selected>Choose One</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="health_issue">Any Specific Health Issue:</label>
+                    <input type="text" name="health_issue" id="health_issue" class="form-control"
+                        placeholder="Enter health issue if any">
+                </div>
+
+                <div class="form-group">
+                    <label for="treatment">Received any treatment for specific problem:</label>
+                    <input type="text" name="treatment" id="treatment" class="form-control"
+                        placeholder="Enter treatment details if any">
+                </div>
+
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+            </div>
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">kratak36.2@gmail.com</span>
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+91-7426866175</span>
+
+                    <h3 class="contact__subtitle">ADDRESS</h3>
+                    <span class="contact__text">India</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Submit" class="contact__button">
+                </form>
+            </div>
+        </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">DATADATADATA</h2>
+                    <p class="footer__text">DESCRIPTIONDESCRIPTIONDESCRIPTION</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="index.html" class="footer__link">Home</a></li>
+                        <li><a href="#demographic" class="footer__link">Demographic</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="www.instagram.com/_kratak" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="www.instagram.com/_kratak" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="www.twitter.com/_kratak" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script>
+            // Add event listener to each dropdown menu to change the default option to the selected one when clicked
+            var dropdowns = document.querySelectorAll('select');
+            dropdowns.forEach(function (dropdown) {
+                dropdown.addEventListener('click', function () {
+                    var defaultOption = this.querySelector('option[value=""]');
+                    if (defaultOption) {
+                        defaultOption.disabled = true;
+                    }
+                });
+            });
+
+            // Function to handle form submission
+            document.getElementById('demographicForm').addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form data
+                var formData = {
+                    age: document.getElementById('age').value,
+                    gender: document.getElementById('gender').value,
+                    countryside: document.getElementById('countryside').value,
+                    marital_status: document.getElementById('marital_status').value,
+                    health_issue: document.getElementById('health_issue').value,
+                    treatment: document.getElementById('treatment').value
+                };
+
+                // Output form data to console (you can send it to server or do anything else with it)
+                console.log(formData);
+            });
+        </script>
+</body>
+
+</html>
